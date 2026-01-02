@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Aplikasi Pameran</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 350px;
+            width: 90%;
+        }
+        .icon {
+            font-size: 50px;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+        p {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+        .btn-download {
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-weight: bold;
+            display: inline-block;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+        }
+        .btn-download:active {
+            transform: scale(0.95);
+            background-color: #0056b3;
+        }
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.7rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="icon">📱</div>
+        <h2>Aplikasi Pameran</h2>
+        <p>Silakan klik tombol di bawah untuk mengunduh aplikasi resmi pameran kami.</p>
+        
+        <a href="aplikasi/MedTes.apk" class="btn-download" download>
+            UNDUH SEKARANG (30MB)
+        </a>
+
+        <div class="footer">
+            &copy; 2024 Panitia Pameran
+        </div>
+    </div>
+
+</body>
+</html>
